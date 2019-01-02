@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlindDate.Api", "BlindDate.Api\BlindDate.Api.csproj", "{1B845CF0-AA08-4B65-A0DD-13B4333D4092}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlindDate.Api.Tests", "BlindDate.Api.Tests\BlindDate.Api.Tests.csproj", "{2B3A2EB3-9B85-4714-B70B-2399B9A673DF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlindDate.Common", "BlindDate.Common\BlindDate.Common.csproj", "{70EF2362-AC2F-4B85-99DF-77332DDFF4A7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlindDate.Mobile", "BlindDate.Mobile\BlindDate.Mobile.csproj", "{73C5FF8A-E05E-4A98-BA99-73471BFED38E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlindDate.Droid", "BlindDate.Droid\BlindDate.Droid.csproj", "{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "BlindDate.Api", "BlindDate.Api\BlindDate.Api.csproj", "{E0F7ACAE-C59B-4AA6-9C98-25B62BF386E7}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "BlindDate.Api.Tests", "BlindDate.Api.Tests\BlindDate.Api.Tests.csproj", "{C298DEAE-EC4E-4A73-9567-E500AF28A3F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{25667AD1-8E5A-4F96-82A9-D437C2A6F58A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1B845CF0-AA08-4B65-A0DD-13B4333D4092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B845CF0-AA08-4B65-A0DD-13B4333D4092}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1B845CF0-AA08-4B65-A0DD-13B4333D4092}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1B845CF0-AA08-4B65-A0DD-13B4333D4092}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B3A2EB3-9B85-4714-B70B-2399B9A673DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B3A2EB3-9B85-4714-B70B-2399B9A673DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B3A2EB3-9B85-4714-B70B-2399B9A673DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B3A2EB3-9B85-4714-B70B-2399B9A673DF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{70EF2362-AC2F-4B85-99DF-77332DDFF4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{70EF2362-AC2F-4B85-99DF-77332DDFF4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70EF2362-AC2F-4B85-99DF-77332DDFF4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,11 +35,23 @@ Global
 		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E0F7ACAE-C59B-4AA6-9C98-25B62BF386E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F7ACAE-C59B-4AA6-9C98-25B62BF386E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F7ACAE-C59B-4AA6-9C98-25B62BF386E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F7ACAE-C59B-4AA6-9C98-25B62BF386E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C298DEAE-EC4E-4A73-9567-E500AF28A3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C298DEAE-EC4E-4A73-9567-E500AF28A3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C298DEAE-EC4E-4A73-9567-E500AF28A3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C298DEAE-EC4E-4A73-9567-E500AF28A3F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {581B8087-5692-4852-A80A-61EB07674857}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6} = {25667AD1-8E5A-4F96-82A9-D437C2A6F58A}
+		{73C5FF8A-E05E-4A98-BA99-73471BFED38E} = {25667AD1-8E5A-4F96-82A9-D437C2A6F58A}
 	EndGlobalSection
 EndGlobal
