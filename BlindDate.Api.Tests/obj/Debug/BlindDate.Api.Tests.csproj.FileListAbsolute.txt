@@ -1,2 +1,0 @@
-D:\Projects\Personal Projects\GitFolder\BlindDate\BlindDate.Api.Tests\obj\Debug\BlindDate.Api.Tests.csprojAssemblyReference.cache
-D:\Projects\Personal Projects\GitFolder\BlindDate\BlindDate.Api.Tests\obj\Debug\BlindDate.Api.Tests.csproj.CoreCompileInputs.cache
