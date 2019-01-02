@@ -9,15 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlindDate.Api.Tests", "Blin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlindDate.Common", "BlindDate.Common\BlindDate.Common.csproj", "{70EF2362-AC2F-4B85-99DF-77332DDFF4A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlindDate.Android", "BlindDate\BlindDate.Android\BlindDate.Android.csproj", "{D396FB30-A6E6-4C69-BEDD-B8AA9CD8FFA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlindDate.Droid", "BlindDate.Droid\BlindDate.Droid.csproj", "{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BlindDate", "BlindDate\BlindDate\BlindDate.shproj", "{CB5BB326-53A8-49E8-8214-73E0169E42F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlindDate.Mobile", "BlindDate.Mobile\BlindDate.Mobile.csproj", "{73C5FF8A-E05E-4A98-BA99-73471BFED38E}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		BlindDate\BlindDate\BlindDate.projitems*{cb5bb326-53a8-49e8-8214-73e0169e42f1}*SharedItemsImports = 13
-		BlindDate\BlindDate\BlindDate.projitems*{d396fb30-a6e6-4c69-bedd-b8aa9cd8ffa4}*SharedItemsImports = 4
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -35,12 +31,16 @@ Global
 		{70EF2362-AC2F-4B85-99DF-77332DDFF4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70EF2362-AC2F-4B85-99DF-77332DDFF4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70EF2362-AC2F-4B85-99DF-77332DDFF4A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D396FB30-A6E6-4C69-BEDD-B8AA9CD8FFA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D396FB30-A6E6-4C69-BEDD-B8AA9CD8FFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D396FB30-A6E6-4C69-BEDD-B8AA9CD8FFA4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{D396FB30-A6E6-4C69-BEDD-B8AA9CD8FFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D396FB30-A6E6-4C69-BEDD-B8AA9CD8FFA4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D396FB30-A6E6-4C69-BEDD-B8AA9CD8FFA4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{73C5FF8A-E05E-4A98-BA99-73471BFED38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C5FF8A-E05E-4A98-BA99-73471BFED38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C5FF8A-E05E-4A98-BA99-73471BFED38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C5FF8A-E05E-4A98-BA99-73471BFED38E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

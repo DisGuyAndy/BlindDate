@@ -1,0 +1,6 @@
+D:\Projects\Personal Projects\GitFolder\BlindDate\BlindDate.Mobile\bin\Debug\BlindDate.Mobile.dll
+D:\Projects\Personal Projects\GitFolder\BlindDate\BlindDate.Mobile\bin\Debug\BlindDate.Mobile.pdb
+D:\Projects\Personal Projects\GitFolder\BlindDate\BlindDate.Mobile\obj\Debug\BlindDate.Mobile.csprojAssemblyReference.cache
+D:\Projects\Personal Projects\GitFolder\BlindDate\BlindDate.Mobile\obj\Debug\BlindDate.Mobile.csproj.CoreCompileInputs.cache
+D:\Projects\Personal Projects\GitFolder\BlindDate\BlindDate.Mobile\obj\Debug\BlindDate.Mobile.dll
+D:\Projects\Personal Projects\GitFolder\BlindDate\BlindDate.Mobile\obj\Debug\BlindDate.Mobile.pdb
