@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlindDate.Api.Tests", "Blin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlindDate.Common", "BlindDate.Common\BlindDate.Common.csproj", "{70EF2362-AC2F-4B85-99DF-77332DDFF4A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlindDate.Droid", "BlindDate.Droid\BlindDate.Droid.csproj", "{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlindDate.Mobile", "BlindDate.Mobile\BlindDate.Mobile.csproj", "{73C5FF8A-E05E-4A98-BA99-73471BFED38E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlindDate.Droid", "BlindDate.Droid\BlindDate.Droid.csproj", "{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,16 +31,16 @@ Global
 		{70EF2362-AC2F-4B85-99DF-77332DDFF4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70EF2362-AC2F-4B85-99DF-77332DDFF4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70EF2362-AC2F-4B85-99DF-77332DDFF4A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C5FF8A-E05E-4A98-BA99-73471BFED38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C5FF8A-E05E-4A98-BA99-73471BFED38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C5FF8A-E05E-4A98-BA99-73471BFED38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C5FF8A-E05E-4A98-BA99-73471BFED38E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{73C5FF8A-E05E-4A98-BA99-73471BFED38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{73C5FF8A-E05E-4A98-BA99-73471BFED38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{73C5FF8A-E05E-4A98-BA99-73471BFED38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{73C5FF8A-E05E-4A98-BA99-73471BFED38E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

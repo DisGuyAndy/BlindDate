@@ -68,7 +68,7 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\content_main.axml">
-      <SubType>Designer</SubType>
+          <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\values\colors.xml" />
     <AndroidResource Include="Resources\values\dimens.xml" />
@@ -95,17 +95,7 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BlindDate.Common\BlindDate.Common.csproj">
-      <Project>{70ef2362-ac2f-4b85-99df-77332ddff4a7}</Project>
-      <Name>BlindDate.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\BlindDate.Mobile\BlindDate.Mobile.csproj">
-      <Project>{73c5ff8a-e05e-4a98-ba99-73471bfed38e}</Project>
-      <Name>BlindDate.Mobile</Name>
-    </ProjectReference>
+    <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2"/>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
