@@ -1,6 +1,0 @@
-D:\Projects\Personal Projects\BlindDate\BlindDate.Common\bin\Debug\BlindDate.Common.dll
-D:\Projects\Personal Projects\BlindDate\BlindDate.Common\bin\Debug\BlindDate.Common.pdb
-D:\Projects\Personal Projects\BlindDate\BlindDate.Common\obj\Debug\BlindDate.Common.csprojAssemblyReference.cache
-D:\Projects\Personal Projects\BlindDate\BlindDate.Common\obj\Debug\BlindDate.Common.csproj.CoreCompileInputs.cache
-D:\Projects\Personal Projects\BlindDate\BlindDate.Common\obj\Debug\BlindDate.Common.dll
-D:\Projects\Personal Projects\BlindDate\BlindDate.Common\obj\Debug\BlindDate.Common.pdb

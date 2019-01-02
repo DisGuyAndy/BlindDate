@@ -3,3 +3,15 @@ BlindDate.Droid/obj/
 BlindDate.Droid/bin/
 BlindDate.Api\Web.config
 
+BlindDate.Api/obj/
+BlindDate.Api/bin/
+
+BlindDate.Api.Tests/obj/
+BlindDate.Api.Tests/bin/
+
+BlindDate.Mobile/obj/
+BlindDate.Mobile/bin/
+
+BlindDate.Common/obj/
+BlindDate.Common/bin/
+
